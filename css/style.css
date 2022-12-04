@@ -12,13 +12,14 @@ body{
   padding: 0 10px;
   justify-content: center;
   min-height: 100vh;
-  background: #9B59B6;
+  background: #5f5b60;
 }
 .wrapper{
   width: 450px;
-  background: #fff;
+  background: #c0c9ff;
   border-radius: 10px;
   box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  box-shadow: 10px 10px 5px 5px #424242;
 }
 .wrapper header{
   display: flex;
@@ -45,7 +46,7 @@ header .icons span{
   margin-right: -10px;
 }
 header .icons span:hover{
-  background: #f2f2f2;
+  background: #ff8282;
 }
 header .current-date{
   font-size: 1.45rem;
@@ -82,7 +83,7 @@ header .current-date{
   color: #aaa;
 }
 .days li.active{
-  color: #fff;
+  color: #ffffff;
 }
 .days li::before{
   position: absolute;
@@ -96,8 +97,8 @@ header .current-date{
   transform: translate(-50%, -50%);
 }
 .days li.active::before{
-  background: #9B59B6;
+  background: #4d4451;
 }
 .days li:not(.active):hover::before{
-  background: #f2f2f2;
+  background: #ff8383;
 }
